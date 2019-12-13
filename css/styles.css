@@ -177,7 +177,8 @@ h1{
 .me{
     width: 80%;
     border-radius: 50%;
-    border: 8px solid rgb(199, 183, 160);
+    border: 8px solid rgb(117, 111, 103);
+    object-fit: cover;
 }
 
 .subTitleAbout{
