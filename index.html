@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <title>Aybson Mercado - Personal Site</title>
@@ -9,30 +10,65 @@
     <script src="https://kit.fontawesome.com/e11a230b42.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale = 1">
     <script>
-        function menu(){
+        function menu() {
             const menu = document.getElementById('menu');
             menu.classList.toggle('is-active');
         }
     </script>
+    <!-- Start of Async Drift Code -->
+    <script>
+        "use strict";
+
+        !function () {
+            var t = window.driftt = window.drift = window.driftt || [];
+            if (!t.init) {
+                if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+                t.invoked = !0, t.methods = ["identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on"],
+                    t.factory = function (e) {
+                        return function () {
+                            var n = Array.prototype.slice.call(arguments);
+                            return n.unshift(e), t.push(n), t;
+                        };
+                    }, t.methods.forEach(function (e) {
+                        t[e] = t.factory(e);
+                    }), t.load = function (t) {
+                        var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+                        o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+                        var i = document.getElementsByTagName("script")[0];
+                        i.parentNode.insertBefore(o, i);
+                    };
+            }
+        }();
+        drift.SNIPPET_VERSION = '0.3.1';
+        drift.load('nnyn36kkbubu');
+    </script>
+    <!-- End of Async Drift Code -->
 </head>
-<body> 
+
+<body>
     <div class="landing-page">
         <h1>Aybson Mercado</h1>
         <span class="subTitle">Personal Website</span>
         <a href="#about-me" class="down">
-                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-                width="100" height="100"
-                viewBox="0 0 100 100"
-                style=" fill:#000000;"><path class="red" fill="#52bfa1" d="M88 35L80 27 50 57 20 27 12 35 50 73z"></path><path fill="#1f212b" d="M50,74c-0.256,0-0.512-0.098-0.707-0.293l-38-38c-0.391-0.391-0.391-1.023,0-1.414l8-8 c0.391-0.391,1.023-0.391,1.414,0L50,55.586l29.293-29.293c0.391-0.391,1.023-0.391,1.414,0l8,8c0.391,0.391,0.391,1.023,0,1.414 l-38,38C50.512,73.902,50.256,74,50,74z M13.414,35L50,71.586L86.586,35L80,28.414L50.707,57.707c-0.391,0.391-1.023,0.391-1.414,0 L20,28.414L13.414,35z"></path><path fill="#1f212b" d="M50 68c-.128 0-.256-.049-.354-.146l-1.5-1.5c-.195-.195-.195-.512 0-.707s.512-.195.707 0l1.5 1.5c.195.195.195.512 0 .707C50.256 67.951 50.128 68 50 68zM46 64c-.128 0-.256-.049-.354-.146l-3.5-3.5c-.195-.195-.195-.512 0-.707s.512-.195.707 0l3.5 3.5c.195.195.195.512 0 .707C46.256 63.951 46.128 64 46 64zM55.5 62.5c-.128 0-.256-.049-.354-.146-.195-.195-.195-.512 0-.707l24-24c.195-.195.512-.195.707 0s.195.512 0 .707l-24 24C55.756 62.451 55.628 62.5 55.5 62.5zM37 55c-.128 0-.256-.049-.354-.146l-16.5-16.5c-.195-.195-.195-.512 0-.707s.512-.195.707 0l16.5 16.5c.195.195.195.512 0 .707C37.256 54.951 37.128 55 37 55z"></path></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 100 100"
+                style=" fill:#000000;">
+                <path class="red" fill="#52bfa1" d="M88 35L80 27 50 57 20 27 12 35 50 73z"></path>
+                <path fill="#1f212b"
+                    d="M50,74c-0.256,0-0.512-0.098-0.707-0.293l-38-38c-0.391-0.391-0.391-1.023,0-1.414l8-8 c0.391-0.391,1.023-0.391,1.414,0L50,55.586l29.293-29.293c0.391-0.391,1.023-0.391,1.414,0l8,8c0.391,0.391,0.391,1.023,0,1.414 l-38,38C50.512,73.902,50.256,74,50,74z M13.414,35L50,71.586L86.586,35L80,28.414L50.707,57.707c-0.391,0.391-1.023,0.391-1.414,0 L20,28.414L13.414,35z">
+                </path>
+                <path fill="#1f212b"
+                    d="M50 68c-.128 0-.256-.049-.354-.146l-1.5-1.5c-.195-.195-.195-.512 0-.707s.512-.195.707 0l1.5 1.5c.195.195.195.512 0 .707C50.256 67.951 50.128 68 50 68zM46 64c-.128 0-.256-.049-.354-.146l-3.5-3.5c-.195-.195-.195-.512 0-.707s.512-.195.707 0l3.5 3.5c.195.195.195.512 0 .707C46.256 63.951 46.128 64 46 64zM55.5 62.5c-.128 0-.256-.049-.354-.146-.195-.195-.195-.512 0-.707l24-24c.195-.195.512-.195.707 0s.195.512 0 .707l-24 24C55.756 62.451 55.628 62.5 55.5 62.5zM37 55c-.128 0-.256-.049-.354-.146l-16.5-16.5c-.195-.195-.195-.512 0-.707s.512-.195.707 0l16.5 16.5c.195.195.195.512 0 .707C37.256 54.951 37.128 55 37 55z">
+                </path>
+            </svg>
         </a>
-    </div>  
+    </div>
     <div id="container">
         <div id="col-menu">
-           <span class="hamburguerMenu" >
-               <i class="fas fa-bars" onclick="menu()"></i>
-           </span>
+            <span class="hamburguerMenu">
+                <i class="fas fa-bars" onclick="menu()"></i>
+            </span>
             <ul id="menu">
-                <li class="border-menu" ><a href="#about-me">Profile</a></li>
+                <li class="border-menu"><a href="#about-me">Profile</a></li>
                 <li class="border-menu"><a href="#experiences">Experiences</a> </li>
                 <li class="border-menu"><a href="#abilities">Abilities</a></li>
                 <!-- <li class="border-menu"><a href="#projects">Projects</a></li> -->
@@ -49,7 +85,8 @@
                     <div class="columnasProfile">
                         <h3 class="subTitleAbout">About Me</h3>
                         <p class="aboutDescription">
-                            I'm a person interesting in a good reading of books, passionate for the code and constant learning about the new technologies. Lover of videogames, soccer and the challenges.
+                            I'm a person interesting in a good reading of books, passionate for the code and constant
+                            learning about the new technologies. Lover of videogames, soccer and the challenges.
                         </p>
                     </div>
                     <div class="columnasProfile flex">
@@ -74,7 +111,7 @@
                         </span>
                         <span class="bold row">
                             Guatemala City, Guatemala
-                        </span>    
+                        </span>
                     </div>
                 </div>
             </div>
@@ -95,7 +132,8 @@
                         <div class="colDescription">
                             <span class="carreerTitle">Fullstack Web Developer</span>
                             <p class="carreerDescription">
-                                Programming Online Bootcamp focused on learn fundamentals of computer science and web technologies in frontend and backend.
+                                Programming Online Bootcamp focused on learn fundamentals of computer science and web
+                                technologies in frontend and backend.
                                 <br>
                                 <a href="https://academlo.com/web-fullstack" target="_blank">See the Bootcamp</a>
                             </p>
@@ -110,13 +148,14 @@
                         <div class="colDescription">
                             <span class="carreerTitle">Engineering in sciences and systems</span>
                             <p class="carreerDescription">
-                                Degree in Sciencies and Systems Engineering in San Carlos University of Guatemala. Currently studying the sixth of tenth semester.  
+                                Degree in Sciencies and Systems Engineering in San Carlos University of Guatemala.
+                                Currently studying the sixth of tenth semester.
                             </p>
                             <span class="country"><i class="fas fa-map-marker-alt"></i> Guatemala</span>
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="content_experience">
                     <h3 class="titleContent">Careers</h3>
                     <div class="experience_row">
@@ -127,7 +166,8 @@
                         <div class="colDescription">
                             <span class="carreerTitle">Telephone Agent in Call Center</span>
                             <p class="carreerDescription">
-                                Dedicated to telephonic sales about vehicles insurances to the internal and external clients of the bank.
+                                Dedicated to telephonic sales about vehicles insurances to the internal and external
+                                clients of the bank.
                             </p>
                             <span class="country"><i class="fas fa-map-marker-alt"></i> Guatemala</span>
                         </div>
@@ -143,8 +183,10 @@
                 </div>
                 <h3 class="skillsTitle">Skills</h3>
                 <div class="skillsContent">
-                    <div class="skillsCol"> <!--COLUMNA 1 DE SKILLS-->
-                        <div class="skill"> <!--SKILL-->
+                    <div class="skillsCol">
+                        <!--COLUMNA 1 DE SKILLS-->
+                        <div class="skill">
+                            <!--SKILL-->
                             <div class="nameSkill">HTML(5)</div>
                             <div class="skillStar">
                                 <i class="fas fa-star active"></i>
@@ -154,7 +196,8 @@
                                 <i class="fas fa-star "></i>
                             </div>
                         </div>
-                        <div class="skill"> <!--SKILL-->
+                        <div class="skill">
+                            <!--SKILL-->
                             <div class="nameSkill">CSS(3)</div>
                             <div class="skillStar">
                                 <i class="fas fa-star active"></i>
@@ -164,7 +207,8 @@
                                 <i class="fas fa-star "></i>
                             </div>
                         </div>
-                        <div class="skill"> <!--SKILL-->
+                        <div class="skill">
+                            <!--SKILL-->
                             <div class="nameSkill">FLEXBOX</div>
                             <div class="skillStar">
                                 <i class="fas fa-star active"></i>
@@ -174,7 +218,8 @@
                                 <i class="fas fa-star "></i>
                             </div>
                         </div>
-                        <div class="skill"> <!--SKILL-->
+                        <div class="skill">
+                            <!--SKILL-->
                             <div class="nameSkill">MYSQL</div>
                             <div class="skillStar">
                                 <i class="fas fa-star active"></i>
@@ -184,7 +229,8 @@
                                 <i class="fas fa-star "></i>
                             </div>
                         </div>
-                        <div class="skill"> <!--SKILL-->
+                        <div class="skill">
+                            <!--SKILL-->
                             <div class="nameSkill">MARIA DB</div>
                             <div class="skillStar">
                                 <i class="fas fa-star active"></i>
@@ -194,7 +240,8 @@
                                 <i class="fas fa-star "></i>
                             </div>
                         </div>
-                        <div class="skill"> <!--SKILL-->
+                        <div class="skill">
+                            <!--SKILL-->
                             <div class="nameSkill">SQL SERVER</div>
                             <div class="skillStar">
                                 <i class="fas fa-star active"></i>
@@ -204,7 +251,8 @@
                                 <i class="fas fa-star "></i>
                             </div>
                         </div>
-                        <div class="skill"> <!--SKILL-->
+                        <div class="skill">
+                            <!--SKILL-->
                             <div class="nameSkill">ORACLE</div>
                             <div class="skillStar">
                                 <i class="fas fa-star active"></i>
@@ -214,7 +262,8 @@
                                 <i class="fas fa-star "></i>
                             </div>
                         </div>
-                        <div class="skill"> <!--SKILL-->
+                        <div class="skill">
+                            <!--SKILL-->
                             <div class="nameSkill">LEXICAL ANALISIS</div>
                             <div class="skillStar">
                                 <i class="fas fa-star active"></i>
@@ -224,7 +273,8 @@
                                 <i class="fas fa-star "></i>
                             </div>
                         </div>
-                        <div class="skill"> <!--SKILL-->
+                        <div class="skill">
+                            <!--SKILL-->
                             <div class="nameSkill">RESPONSIVE WEB DESIGN</div>
                             <div class="skillStar">
                                 <i class="fas fa-star active"></i>
@@ -235,8 +285,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="skillsCol"><!--COLUMNA 2 DE SKILLS-->
-                        <div class="skill"> <!--SKILL-->
+                    <div class="skillsCol">
+                        <!--COLUMNA 2 DE SKILLS-->
+                        <div class="skill">
+                            <!--SKILL-->
                             <div class="nameSkill">JAVA</div>
                             <div class="skillStar">
                                 <i class="fas fa-star active"></i>
@@ -246,7 +298,8 @@
                                 <i class="fas fa-star "></i>
                             </div>
                         </div>
-                        <div class="skill"> <!--SKILL-->
+                        <div class="skill">
+                            <!--SKILL-->
                             <div class="nameSkill">C#</div>
                             <div class="skillStar">
                                 <i class="fas fa-star active"></i>
@@ -256,7 +309,8 @@
                                 <i class="fas fa-star "></i>
                             </div>
                         </div>
-                        <div class="skill"> <!--SKILL-->
+                        <div class="skill">
+                            <!--SKILL-->
                             <div class="nameSkill">C++</div>
                             <div class="skillStar">
                                 <i class="fas fa-star active"></i>
@@ -266,7 +320,8 @@
                                 <i class="fas fa-star "></i>
                             </div>
                         </div>
-                        <div class="skill"> <!--SKILL-->
+                        <div class="skill">
+                            <!--SKILL-->
                             <div class="nameSkill">PHP</div>
                             <div class="skillStar">
                                 <i class="fas fa-star active"></i>
@@ -276,7 +331,8 @@
                                 <i class="fas fa-star "></i>
                             </div>
                         </div>
-                        <div class="skill"> <!--SKILL-->
+                        <div class="skill">
+                            <!--SKILL-->
                             <div class="nameSkill">OBJECT ORIENTED PROGRAMMING</div>
                             <div class="skillStar">
                                 <i class="fas fa-star active"></i>
@@ -286,7 +342,8 @@
                                 <i class="fas fa-star "></i>
                             </div>
                         </div>
-                        <div class="skill"> <!--SKILL-->
+                        <div class="skill">
+                            <!--SKILL-->
                             <div class="nameSkill">UML</div>
                             <div class="skillStar">
                                 <i class="fas fa-star active"></i>
@@ -296,7 +353,8 @@
                                 <i class="fas fa-star "></i>
                             </div>
                         </div>
-                        <div class="skill"> <!--SKILL-->
+                        <div class="skill">
+                            <!--SKILL-->
                             <div class="nameSkill">DATA STRUCTURES</div>
                             <div class="skillStar">
                                 <i class="fas fa-star active"></i>
@@ -306,7 +364,8 @@
                                 <i class="fas fa-star "></i>
                             </div>
                         </div>
-                        <div class="skill"> <!--SKILL-->
+                        <div class="skill">
+                            <!--SKILL-->
                             <div class="nameSkill">COMPILERS</div>
                             <div class="skillStar">
                                 <i class="fas fa-star active"></i>
@@ -316,7 +375,8 @@
                                 <i class="fas fa-star "></i>
                             </div>
                         </div>
-                        <div class="skill"> <!--SKILL-->
+                        <div class="skill">
+                            <!--SKILL-->
                             <div class="nameSkill">PL/SQL</div>
                             <div class="skillStar">
                                 <i class="fas fa-star active"></i>
@@ -331,7 +391,8 @@
                 <h3 class="skillsTitle">Languages</h3>
                 <div class="skillsContent lastSkillsContent">
                     <div class="skillsCol">
-                        <div class="skill"> <!--SKILL-->
+                        <div class="skill">
+                            <!--SKILL-->
                             <div class="nameSkill">SPANISH(DAILY LANGUAGE)</div>
                             <div class="skillStar">
                                 <i class="fas fa-star active"></i>
@@ -343,7 +404,8 @@
                         </div>
                     </div>
                     <div class="skillsCol">
-                        <div class="skill"> <!--SKILL-->
+                        <div class="skill">
+                            <!--SKILL-->
                             <div class="nameSkill">ENGLISH(LEARNING)</div>
                             <div class="skillStar">
                                 <i class="fas fa-star active"></i>
@@ -453,7 +515,7 @@
             <div id="contact_content">
                 <span class="contactTitle">Contact Me</span>
                 <span class="phrase">
-                    “The highest reward for man’s toil is not what he gets for it, but what he becomes by it.” 
+                    “The highest reward for man’s toil is not what he gets for it, but what he becomes by it.”
                     <span class="autor">– John Ruskin</span>
                 </span>
                 <div class="social">
@@ -470,7 +532,8 @@
                         <p>Twitter: aybson_i</p>
                     </a>
                     <a href="#contact" class="socialNetwork">
-                        <i class="fas fa-envelope-square socialIcon"></i><p>aybsonmg@gmail.com</p>
+                        <i class="fas fa-envelope-square socialIcon"></i>
+                        <p>aybsonmg@gmail.com</p>
                     </a>
                 </div>
             </div>
@@ -478,22 +541,5 @@
     </div>
 
 </body>
+
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
