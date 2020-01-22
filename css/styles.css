@@ -414,13 +414,11 @@ h1{
 /*PROJECTS---------------------------*/
 #projects{
     width: 100%;
-    min-height: 100vh;
     background: #FCE9CC;
 }
 
 #content_projects{
     width: 50%;
-    min-height: 100vh;
     margin: 0 auto;
 }
 
@@ -456,7 +454,7 @@ h1{
 
 #main-projects{
     width: 100%;
-    min-height: 75vh;
+    /* min-height: 75vh; */
     padding: 40px;
     display: flex;
     justify-content: space-between;
@@ -505,9 +503,9 @@ h1{
     font-size: 2rem;
     display: flex;
     flex-wrap: wrap;
-    width: 0;
     overflow: hidden;
-    transition: .3s;
+    transition: 100ms;
+    visibility: hidden;
 }
 
 hr{
@@ -531,6 +529,7 @@ hr{
     position: absolute;
     top:0;
     left: 0;
+    object-fit: cover;
 }
 
 .card_project:hover .content_card_project{
@@ -538,7 +537,7 @@ hr{
 }
 
 .card_project:hover .title_card_project{
-    width: 100%;
+    visibility: visible;
 }
 
 .card_project:hover hr{
@@ -889,7 +888,7 @@ hr{
         font-size: 0.99rem;
     }
     
-    #profile , #experiences, #abilities, #projects{
+    #profile , #experiences, #abilities{
         padding-top: 30px;
     }
     
